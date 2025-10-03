@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    }
+    .container{
+        flex:1;
+    }
+    .navbar{
+        height:5rem;
+        background-color: white;
+    }
+    .nav-link{
+        color:#222222 !important;
+        
+    }
+    .fa-compass{
+        color:#fe424d;
+        font-size: 2rem;
+    }
+    footer{
+        background-color:#ebebeb;
+        
+    } 
+     .f-info{
+        height:8rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+     } 
+    .f-info-links a{
+        text-decoration: none;
+        color:#222222;
+    }
+    .f-info-links a:hover{
+        text-decoration: underline;
+    
+    }
+    
+    .f-info-socials i{
+        font-size:1.2rem;
+        margin-right: 1rem;
+    }
+    
+    
+    .card{
+        border:none !important;
+        margin-bottom: 2rem;
+    }
+    .card-img-top{
+        border-radius: 1rem;
+        width:100%;
+        object-fit: cover !important;
+    }
+    .card-body{
+        padding:0;
+    }
+    .listing-link{
+        text-decoration: none;
+        color:#222222 !important;
+    }
+    .card-img-overlay:hover{
+        opacity:0.2;
+        background-color: white;
+    }
+    .add-btn,.edit-btn{
+        background-color: #fe424d;
+        border: none;
+        
+    }
+    .show_img{
+        height:30vh;
+    }
+    .btns{
+        display:flex;
+        margin-left: 270px;
+        
+       
+    }
+    .card-li{
+        border: 1px solid #e2dada; /* Dark border for the card */
+        border-radius: 8px;
+        padding: 10px;
+    }
